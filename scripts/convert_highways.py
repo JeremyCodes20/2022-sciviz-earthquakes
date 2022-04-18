@@ -29,7 +29,7 @@ def main():
             for f in files:
                 if len(files) > 1:
                     print("\tadding", line[:-1], "to", f.name)
-                f.write(line.lstrip().replace(" ", ",").replace("-", ""))
+                f.write(line.lstrip().replace(" ", ","))
 
 
 def open_files(highways):
